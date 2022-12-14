@@ -1,0 +1,801 @@
+-- Welcome, rememeber to replace print("script here")!
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UIStroke = Instance.new("UIStroke")
+local Title = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UpdateLogTitle = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local UIStroke_2 = Instance.new("UIStroke")
+local UICorner_3 = Instance.new("UICorner")
+local UpdateLogsScrollingFrame = Instance.new("ScrollingFrame")
+local UIStroke_3 = Instance.new("UIStroke")
+local Changelog1 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local UIStroke_4 = Instance.new("UIStroke")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Changelog2 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local UIStroke_5 = Instance.new("UIStroke")
+local Changelog3 = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local UIStroke_6 = Instance.new("UIStroke")
+local ScriptsScrollingFrame = Instance.new("ScrollingFrame")
+local UIStroke_7 = Instance.new("UIStroke")
+local Button1 = Instance.new("TextButton")
+local UIStroke_8 = Instance.new("UIStroke")
+local UICorner_7 = Instance.new("UICorner")
+local Button2 = Instance.new("TextButton")
+local UIStroke_9 = Instance.new("UIStroke")
+local UICorner_8 = Instance.new("UICorner")
+local Button3 = Instance.new("TextButton")
+local UIStroke_10 = Instance.new("UIStroke")
+local UICorner_9 = Instance.new("UICorner")
+local Button4 = Instance.new("TextButton")
+local UIStroke_11 = Instance.new("UIStroke")
+local UICorner_10 = Instance.new("UICorner")
+local Button5 = Instance.new("TextButton")
+local UIStroke_12 = Instance.new("UIStroke")
+local UICorner_11 = Instance.new("UICorner")
+local Button6 = Instance.new("TextButton")
+local UIStroke_13 = Instance.new("UIStroke")
+local UICorner_12 = Instance.new("UICorner")
+local Button7 = Instance.new("TextButton")
+local UIStroke_14 = Instance.new("UIStroke")
+local UICorner_13 = Instance.new("UICorner")
+local Button8 = Instance.new("TextButton")
+local UIStroke_15 = Instance.new("UIStroke")
+local UICorner_14 = Instance.new("UICorner")
+local Button9 = Instance.new("TextButton")
+local UIStroke_16 = Instance.new("UIStroke")
+local UICorner_15 = Instance.new("UICorner")
+local Button10 = Instance.new("TextButton")
+local UIStroke_17 = Instance.new("UIStroke")
+local UICorner_16 = Instance.new("UICorner")
+local SeperatorInfo1 = Instance.new("TextLabel")
+local UICorner_17 = Instance.new("UICorner")
+local UIStroke_18 = Instance.new("UIStroke")
+local Button12 = Instance.new("TextButton")
+local UIStroke_19 = Instance.new("UIStroke")
+local UICorner_18 = Instance.new("UICorner")
+local Button11 = Instance.new("TextButton")
+local UIStroke_20 = Instance.new("UIStroke")
+local UICorner_19 = Instance.new("UICorner")
+local Button13 = Instance.new("TextButton")
+local UIStroke_21 = Instance.new("UIStroke")
+local UICorner_20 = Instance.new("UICorner")
+local Button14 = Instance.new("TextButton")
+local UIStroke_22 = Instance.new("UIStroke")
+local UICorner_21 = Instance.new("UICorner")
+local Button15 = Instance.new("TextButton")
+local UIStroke_23 = Instance.new("UIStroke")
+local UICorner_22 = Instance.new("UICorner")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local Button16 = Instance.new("TextButton")
+local UIStroke_24 = Instance.new("UIStroke")
+local UICorner_23 = Instance.new("UICorner")
+local Button17 = Instance.new("TextButton")
+local UIStroke_25 = Instance.new("UIStroke")
+local UICorner_24 = Instance.new("UICorner")
+local Button18 = Instance.new("TextButton")
+local UIStroke_26 = Instance.new("UIStroke")
+local UICorner_25 = Instance.new("UICorner")
+local Button19 = Instance.new("TextButton")
+local UIStroke_27 = Instance.new("UIStroke")
+local UICorner_26 = Instance.new("UICorner")
+local Button20 = Instance.new("TextButton")
+local UIStroke_28 = Instance.new("UIStroke")
+local UICorner_27 = Instance.new("UICorner")
+local Button21 = Instance.new("TextButton")
+local UIStroke_29 = Instance.new("UIStroke")
+local UICorner_28 = Instance.new("UICorner")
+local Button22 = Instance.new("TextButton")
+local UIStroke_30 = Instance.new("UIStroke")
+local UICorner_29 = Instance.new("UICorner")
+local ExitButton = Instance.new("ImageButton")
+local UIStroke_31 = Instance.new("UIStroke")
+local UICorner_30 = Instance.new("UICorner")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local OpenUIFrame = Instance.new("Frame")
+local UICorner_31 = Instance.new("UICorner")
+local UIStroke_32 = Instance.new("UIStroke")
+local ButtonOpen = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local UIStroke_33 = Instance.new("UIStroke")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+--Yknow how to configure!
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(38, 17, 15)
+MainFrame.BackgroundTransparency = 0.250
+MainFrame.Position = UDim2.new(0.0510795116, 0, 0.0946698338, 0)
+MainFrame.Size = UDim2.new(0, 627, 0, 420)
+MainFrame.Draggable = true
+MainFrame.Visible = true
+MainFrame.Active = true
+
+UIStroke.Parent = MainFrame
+UIStroke.Color = Color3.fromRGB(255, 222, 189)
+UIStroke.Thickness = 2.000
+UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+Title.Name = "Title"
+Title.Parent = MainFrame
+Title.BackgroundColor3 = Color3.fromRGB(38, 17, 15)
+Title.BackgroundTransparency = 0.800
+Title.Position = UDim2.new(-1.51395798e-05, 0, -0.00215145946, 0)
+Title.Size = UDim2.new(0, 627, 0, 67)
+Title.Font = Enum.Font.Cartoon
+Title.Text = "Neon Hub"
+Title.TextColor3 = Color3.fromRGB(255, 222, 189)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+UICorner.Parent = Title
+
+UpdateLogTitle.Name = "Update Log Title"
+UpdateLogTitle.Parent = MainFrame
+UpdateLogTitle.BackgroundColor3 = Color3.fromRGB(38, 17, 15)
+UpdateLogTitle.BackgroundTransparency = 0.800
+UpdateLogTitle.Position = UDim2.new(0.0255031567, 0, 0.182730898, 0)
+UpdateLogTitle.Size = UDim2.new(0, 183, 0, 51)
+UpdateLogTitle.Font = Enum.Font.Cartoon
+UpdateLogTitle.Text = "Update Log"
+UpdateLogTitle.TextColor3 = Color3.fromRGB(255, 222, 189)
+UpdateLogTitle.TextScaled = true
+UpdateLogTitle.TextSize = 14.000
+UpdateLogTitle.TextWrapped = true
+
+UICorner_2.Parent = UpdateLogTitle
+
+UIStroke_2.Parent = UpdateLogTitle
+UIStroke_2.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_2.Thickness = 1.500
+UIStroke_2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_3.Parent = MainFrame
+
+UpdateLogsScrollingFrame.Name = "UpdateLogsScrollingFrame"
+UpdateLogsScrollingFrame.Parent = MainFrame
+UpdateLogsScrollingFrame.Active = true
+UpdateLogsScrollingFrame.BackgroundColor3 = Color3.fromRGB(38, 17, 15)
+UpdateLogsScrollingFrame.BackgroundTransparency = 0.800
+UpdateLogsScrollingFrame.Position = UDim2.new(0.0287081338, 0, 0.321428567, 0)
+UpdateLogsScrollingFrame.Size = UDim2.new(0, 177, 0, 272)
+UpdateLogsScrollingFrame.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+UpdateLogsScrollingFrame.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+
+UIStroke_3.Parent = UpdateLogsScrollingFrame
+UIStroke_3.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_3.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+Changelog1.Name = "Changelog1"
+Changelog1.Parent = UpdateLogsScrollingFrame
+Changelog1.BackgroundColor3 = Color3.fromRGB(38, 17, 15)
+Changelog1.BackgroundTransparency = 0.800
+Changelog1.Position = UDim2.new(0.144147098, 0, 0.0163834803, 0)
+Changelog1.Size = UDim2.new(0, 141, 0, 51)
+Changelog1.Font = Enum.Font.Cartoon
+Changelog1.Text = "Alpha Release!"
+Changelog1.TextColor3 = Color3.fromRGB(255, 222, 189)
+Changelog1.TextScaled = true
+Changelog1.TextSize = 14.000
+Changelog1.TextWrapped = true
+
+UICorner_4.Parent = Changelog1
+
+UIStroke_4.Parent = Changelog1
+UIStroke_4.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_4.Thickness = 1.500
+UIStroke_4.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UIAspectRatioConstraint.Parent = UpdateLogsScrollingFrame
+UIAspectRatioConstraint.AspectRatio = 0.651
+
+Changelog2.Name = "Changelog2"
+Changelog2.Parent = UpdateLogsScrollingFrame
+Changelog2.BackgroundColor3 = Color3.fromRGB(38, 17, 15)
+Changelog2.BackgroundTransparency = 0.800
+Changelog2.Position = UDim2.new(0.144147098, 0, 0.0890025347, 0)
+Changelog2.Size = UDim2.new(0, 141, 0, 51)
+Changelog2.Font = Enum.Font.Cartoon
+Changelog2.Text = "Alpha Release!"
+Changelog2.TextColor3 = Color3.fromRGB(255, 222, 189)
+Changelog2.TextScaled = true
+Changelog2.TextSize = 14.000
+Changelog2.TextWrapped = true
+
+UICorner_5.Parent = Changelog2
+
+UIStroke_5.Parent = Changelog2
+UIStroke_5.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_5.Thickness = 1.500
+UIStroke_5.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+Changelog3.Name = "Changelog3"
+Changelog3.Parent = UpdateLogsScrollingFrame
+Changelog3.BackgroundColor3 = Color3.fromRGB(38, 17, 15)
+Changelog3.BackgroundTransparency = 0.800
+Changelog3.Position = UDim2.new(0.144147098, 0, 0.161621585, 0)
+Changelog3.Size = UDim2.new(0, 141, 0, 51)
+Changelog3.Font = Enum.Font.Cartoon
+Changelog3.Text = "Alpha Release!"
+Changelog3.TextColor3 = Color3.fromRGB(255, 222, 189)
+Changelog3.TextScaled = true
+Changelog3.TextSize = 14.000
+Changelog3.TextWrapped = true
+
+UICorner_6.Parent = Changelog3
+
+UIStroke_6.Parent = Changelog3
+UIStroke_6.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_6.Thickness = 1.500
+UIStroke_6.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+ScriptsScrollingFrame.Name = "ScriptsScrollingFrame"
+ScriptsScrollingFrame.Parent = MainFrame
+ScriptsScrollingFrame.Active = true
+ScriptsScrollingFrame.BackgroundColor3 = Color3.fromRGB(38, 17, 15)
+ScriptsScrollingFrame.BackgroundTransparency = 0.800
+ScriptsScrollingFrame.Position = UDim2.new(0.35725677, 0, 0.180952385, 0)
+ScriptsScrollingFrame.Size = UDim2.new(0, 386, 0, 331)
+ScriptsScrollingFrame.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+
+UIStroke_7.Parent = ScriptsScrollingFrame
+UIStroke_7.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_7.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+Button1.Name = "Button1"
+Button1.Parent = ScriptsScrollingFrame
+Button1.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button1.BackgroundTransparency = 0.800
+Button1.Position = UDim2.new(0.0284974091, 0, 0.0194322504, 0)
+Button1.Size = UDim2.new(0, 170, 0, 50)
+Button1.Font = Enum.Font.Cartoon
+Button1.Text = "spawn sword (spawns a sword)"
+Button1.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button1.TextScaled = true
+Button1.TextSize = 14.000
+Button1.TextWrapped = true
+Button1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/Fv0Cd9pz'))()
+end)
+
+UIStroke_8.Parent = Button1
+UIStroke_8.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_8.Thickness = 1.100
+UIStroke_8.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_7.Parent = Button1
+
+Button2.Name = "Button2"
+Button2.Parent = ScriptsScrollingFrame
+Button2.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button2.BackgroundTransparency = 0.800
+Button2.Position = UDim2.new(0.49999997, 0, 0.0194322504, 0)
+Button2.Size = UDim2.new(0, 170, 0, 50)
+Button2.Font = Enum.Font.Cartoon
+Button2.Text = "samsung 7 (very cheap for one cent)"
+Button2.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button2.TextScaled = true
+Button2.TextSize = 14.000
+Button2.TextWrapped = true
+Button2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/861SQXj7'))()
+end)
+
+UIStroke_9.Parent = Button2
+UIStroke_9.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_9.Thickness = 1.100
+UIStroke_9.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_8.Parent = Button2
+
+Button3.Name = "Button3"
+Button3.Parent = ScriptsScrollingFrame
+Button3.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button3.BackgroundTransparency = 0.800
+Button3.Position = UDim2.new(0.031088043, 0, 0.0872894078, 0)
+Button3.Size = UDim2.new(0, 170, 0, 50)
+Button3.Font = Enum.Font.Cartoon
+Button3.Text = "deadly c7 (can destroy map)"
+Button3.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button3.TextScaled = true
+Button3.TextSize = 14.000
+Button3.TextWrapped = true
+Button3.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Plsstpppppp/OKm/main/README.md'))()
+end)
+
+UIStroke_10.Parent = Button3
+UIStroke_10.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_10.Thickness = 1.100
+UIStroke_10.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_9.Parent = Button3
+
+Button4.Name = "Button4"
+Button4.Parent = ScriptsScrollingFrame
+Button4.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button4.BackgroundTransparency = 0.800
+Button4.Position = UDim2.new(0.502590656, 0, 0.0872894078, 0)
+Button4.Size = UDim2.new(0, 170, 0, 50)
+Button4.Font = Enum.Font.Cartoon
+Button4.Text = "skeleton key (from the overworld where the door hides.)"
+Button4.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button4.TextScaled = true
+Button4.TextSize = 14.000
+Button4.TextWrapped = true
+Button4.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/VJe9JMfP'))()
+end)
+
+UIStroke_11.Parent = Button4
+UIStroke_11.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_11.Thickness = 1.100
+UIStroke_11.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_10.Parent = Button4
+
+Button5.Name = "Button5"
+Button5.Parent = ScriptsScrollingFrame
+Button5.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button5.BackgroundTransparency = 0.800
+Button5.Position = UDim2.new(0.0259066951, 0, 0.158321157, 0)
+Button5.Size = UDim2.new(0, 170, 0, 50)
+Button5.Font = Enum.Font.Cartoon
+Button5.Text = "screech the psst's gui (cool gui)"
+Button5.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button5.TextScaled = true
+Button5.TextSize = 14.000
+Button5.TextWrapped = true
+Button5.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Johnny39871/assets/main/DoorsHubSpawner'))()
+end)
+
+UIStroke_12.Parent = Button5
+UIStroke_12.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_12.Thickness = 1.100
+UIStroke_12.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_11.Parent = Button5
+
+Button6.Name = "Button6"
+Button6.Parent = ScriptsScrollingFrame
+Button6.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button6.BackgroundTransparency = 0.800
+Button6.Position = UDim2.new(0.492227942, 0, 0.158321157, 0)
+Button6.Size = UDim2.new(0, 170, 0, 50)
+Button6.Font = Enum.Font.Cartoon
+Button6.Text = "satan's crucifix (drag your enemies down to hell.)"
+Button6.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button6.TextScaled = true
+Button6.TextSize = 14.000
+Button6.TextWrapped = true
+Button6.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/V272iaAC'))()
+end)
+
+UIStroke_13.Parent = Button6
+UIStroke_13.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_13.Thickness = 1.100
+UIStroke_13.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_12.Parent = Button6
+
+Button7.Name = "Button7"
+Button7.Parent = ScriptsScrollingFrame
+Button7.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button7.BackgroundTransparency = 0.800
+Button7.Position = UDim2.new(0.0284973681, 0, 0.231337011, 0)
+Button7.Size = UDim2.new(0, 170, 0, 50)
+Button7.Font = Enum.Font.Cartoon
+Button7.Text = "a-60 (has trailer effect)"
+Button7.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button7.TextScaled = true
+Button7.TextSize = 14.000
+Button7.TextWrapped = true
+Button7.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/8fB9YUBG'))()
+end)
+
+UIStroke_14.Parent = Button7
+UIStroke_14.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_14.Thickness = 1.100
+UIStroke_14.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_13.Parent = Button7
+
+Button8.Name = "Button8"
+Button8.Parent = ScriptsScrollingFrame
+Button8.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button8.BackgroundTransparency = 0.800
+Button8.Position = UDim2.new(0.49999997, 0, 0.231337011, 0)
+Button8.Size = UDim2.new(0, 170, 0, 50)
+Button8.Font = Enum.Font.Cartoon
+Button8.Text = "skeleton key's origion part two's door"
+Button8.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button8.TextScaled = true
+Button8.TextSize = 14.000
+Button8.TextWrapped = true
+Button8.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/ZiSeEjP9'))()
+end)
+
+UIStroke_15.Parent = Button8
+UIStroke_15.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_15.Thickness = 1.100
+UIStroke_15.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_14.Parent = Button8
+
+Button9.Name = "Button9"
+Button9.Parent = ScriptsScrollingFrame
+Button9.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button9.BackgroundTransparency = 0.800
+Button9.Position = UDim2.new(0.031088043, 0, 0.307527572, 0)
+Button9.Size = UDim2.new(0, 170, 0, 50)
+Button9.Font = Enum.Font.Cartoon
+Button9.Text = "spawn npc"
+Button9.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button9.TextScaled = true
+Button9.TextSize = 14.000
+Button9.TextWrapped = true
+Button9.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/AC3VkTEA'))()
+end)
+
+UIStroke_16.Parent = Button9
+UIStroke_16.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_16.Thickness = 1.100
+UIStroke_16.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_15.Parent = Button9
+
+Button10.Name = "Button10"
+Button10.Parent = ScriptsScrollingFrame
+Button10.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button10.BackgroundTransparency = 0.800
+Button10.Position = UDim2.new(0.502590656, 0, 0.307527572, 0)
+Button10.Size = UDim2.new(0, 170, 0, 50)
+Button10.Font = Enum.Font.Cartoon
+Button10.Text = "grinding script"
+Button10.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button10.TextScaled = true
+Button10.TextSize = 14.000
+Button10.TextWrapped = true
+Button10.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+UIStroke_17.Parent = Button10
+UIStroke_17.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_17.Thickness = 1.100
+UIStroke_17.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_16.Parent = Button10
+
+SeperatorInfo1.Name = "SeperatorInfo1"
+SeperatorInfo1.Parent = ScriptsScrollingFrame
+SeperatorInfo1.BackgroundColor3 = Color3.fromRGB(38, 17, 15)
+SeperatorInfo1.BackgroundTransparency = 0.800
+SeperatorInfo1.Position = UDim2.new(0.0259067342, 0, 0.82785356, 0)
+SeperatorInfo1.Size = UDim2.new(0, 351, 0, 51)
+SeperatorInfo1.Font = Enum.Font.Cartoon
+SeperatorInfo1.Text = "More Coming soon!"
+SeperatorInfo1.TextColor3 = Color3.fromRGB(255, 222, 189)
+SeperatorInfo1.TextScaled = true
+SeperatorInfo1.TextSize = 14.000
+SeperatorInfo1.TextWrapped = true
+
+UICorner_17.Parent = SeperatorInfo1
+
+UIStroke_18.Parent = SeperatorInfo1
+UIStroke_18.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_18.Thickness = 1.500
+UIStroke_18.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+Button12.Name = "Button12"
+Button12.Parent = ScriptsScrollingFrame
+Button12.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button12.BackgroundTransparency = 0.800
+Button12.Position = UDim2.new(0.502590656, 0, 0.380146623, 0)
+Button12.Size = UDim2.new(0, 170, 0, 50)
+Button12.Font = Enum.Font.Cartoon
+Button12.Text = "my entity gui fixed for mobile"
+Button12.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button12.TextScaled = true
+Button12.TextSize = 14.000
+Button12.TextWrapped = true
+Button12.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/7y5QrTh8"))()
+end)
+
+UIStroke_19.Parent = Button12
+UIStroke_19.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_19.Thickness = 1.100
+UIStroke_19.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_18.Parent = Button12
+
+Button11.Name = "Button11"
+Button11.Parent = ScriptsScrollingFrame
+Button11.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button11.BackgroundTransparency = 0.800
+Button11.Position = UDim2.new(0.031088043, 0, 0.380146623, 0)
+Button11.Size = UDim2.new(0, 170, 0, 50)
+Button11.Font = Enum.Font.Cartoon
+Button11.Text = "updated crucifix works on real halt and eyes"
+Button11.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button11.TextScaled = true
+Button11.TextSize = 14.000
+Button11.TextWrapped = true
+Button11.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://gist.githubusercontent.com/C00LBOZO/0c78ad8c74ca26324c87ede16ce8b387/raw/c0887ac0d24fde80bea11ab1a6a696ec296af272/Crucifix'))()
+end)
+
+UIStroke_20.Parent = Button11
+UIStroke_20.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_20.Thickness = 1.100
+UIStroke_20.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_19.Parent = Button11
+
+Button13.Name = "Button13"
+Button13.Parent = ScriptsScrollingFrame
+Button13.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button13.BackgroundTransparency = 0.800
+Button13.Position = UDim2.new(0.031088043, 0, 0.455940336, 0)
+Button13.Size = UDim2.new(0, 170, 0, 50)
+Button13.Font = Enum.Font.Cartoon
+Button13.Text = "trailer ambush"
+Button13.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button13.TextScaled = true
+Button13.TextSize = 14.000
+Button13.TextWrapped = true
+Button13.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/hBWFtx2K"))()
+end)
+
+UIStroke_21.Parent = Button13
+UIStroke_21.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_21.Thickness = 1.100
+UIStroke_21.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_20.Parent = Button13
+
+Button14.Name = "Button14"
+Button14.Parent = ScriptsScrollingFrame
+Button14.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button14.BackgroundTransparency = 0.800
+Button14.Position = UDim2.new(0.502590656, 0, 0.455940336, 0)
+Button14.Size = UDim2.new(0, 170, 0, 50)
+Button14.Font = Enum.Font.Cartoon
+Button14.Text = "trailer rush"
+Button14.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button14.TextScaled = true
+Button14.TextSize = 14.000
+Button14.TextWrapped = true
+Button14.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/UXD91AKv"))()
+end)
+
+UIStroke_24.Parent = Button16
+UIStroke_24.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_24.Thickness = 1.100
+UIStroke_24.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_23.Parent = Button16
+
+Button17.Name = "Button17"
+Button17.Parent = ScriptsScrollingFrame
+Button17.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button17.BackgroundTransparency = 0.800
+Button17.Position = UDim2.new(0.0310880542, 0, 0.601972103, 0)
+Button17.Size = UDim2.new(0, 170, 0, 50)
+Button17.Font = Enum.Font.Cartoon
+Button17.Text = "flashlight"
+Button17.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button17.TextScaled = true
+Button17.TextSize = 14.000
+Button17.TextWrapped = true
+Button17.MouseButton1Down:connect(function()
+	local shadow=game:GetObjects("rbxassetid://11475447684")[1] shadow.Parent = game.Players.LocalPlayer.Backpack local Players = game:GetService("Players") local Plr = Players.LocalPlayer local Char = Plr.Character or Plr.CharacterAdded:Wait() local Hum = Char:WaitForChild("Humanoid") local RightArm = Char:WaitForChild("RightUpperArm") local LeftArm = Char:WaitForChild("LeftUpperArm") local RightC1 = RightArm.RightShoulder.C1 local LeftC1 = LeftArm.LeftShoulder.C1 local function setupCrucifix(tool) RightArm.Name = "R_Arm" LeftArm.Name = "L_Arm" RightArm.RightShoulder.C1 = RightC1 * CFrame.Angles(math.rad(-90), math.rad(-15), 0) LeftArm.LeftShoulder.C1 = LeftC1 * CFrame.new(-0.2, -0.3, -0.5) * CFrame.Angles(math.rad(-125), math.rad(25), math.rad(25)) for _, v in next, Hum:GetPlayingAnimationTracks() do v:Stop() end end shadow.Equipped:Connect(function() setupCrucifix(shadow) game.Players.LocalPlayer:SetAttribute("Hidden", true) end) shadow.Unequipped:Connect(function() game.Players.LocalPlayer:SetAttribute("Hidden", false) RightArm.Name = "RightUpperArm" LeftArm.Name = "LeftUpperArm" RightArm.RightShoulder.C1 = RightC1 LeftArm.LeftShoulder.C1 = LeftC1 end)
+end)
+
+UIStroke_25.Parent = Button17
+UIStroke_25.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_25.Thickness = 1.100
+UIStroke_25.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_24.Parent = Button17
+
+Button18.Name = "Button18"
+Button18.Parent = ScriptsScrollingFrame
+Button18.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button18.BackgroundTransparency = 0.800
+Button18.Position = UDim2.new(0.489637345, 0, 0.601972103, 0)
+Button18.Size = UDim2.new(0, 170, 0, 50)
+Button18.Font = Enum.Font.Cartoon
+Button18.Text = "trailer trollface"
+Button18.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button18.TextScaled = true
+Button18.TextSize = 14.000
+Button18.TextWrapped = true
+Button18.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/nWPdgzP0"))()
+end)
+
+UIStroke_26.Parent = Button18
+UIStroke_26.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_26.Thickness = 1.100
+UIStroke_26.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_25.Parent = Button18
+
+Button19.Name = "Button19"
+Button19.Parent = ScriptsScrollingFrame
+Button19.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button19.BackgroundTransparency = 0.800
+Button19.Position = UDim2.new(0.0310880542, 0, 0.675781608, 0)
+Button19.Size = UDim2.new(0, 170, 0, 50)
+Button19.Font = Enum.Font.Cartoon
+Button19.Text = "skeleton crucifix by adsad"
+Button19.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button19.TextScaled = true
+Button19.TextSize = 14.000
+Button19.TextWrapped = true
+Button19.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/r2AX3x4W'))()
+end)
+
+UIStroke_27.Parent = Button19
+UIStroke_27.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_27.Thickness = 1.100
+UIStroke_27.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_26.Parent = Button19
+
+Button20.Name = "Button20"
+Button20.Parent = ScriptsScrollingFrame
+Button20.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button20.BackgroundTransparency = 0.800
+Button20.Position = UDim2.new(0.487046689, 0, 0.675781608, 0)
+Button20.Size = UDim2.new(0, 170, 0, 50)
+Button20.Font = Enum.Font.Cartoon
+Button20.Text = "sans key (room 50 + click e)"
+Button20.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button20.TextScaled = true
+Button20.TextSize = 14.000
+Button20.TextWrapped = true
+Button20.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/N9pYY9zv", true))()
+end)
+
+UIStroke_28.Parent = Button20
+UIStroke_28.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_28.Thickness = 1.100
+UIStroke_28.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_27.Parent = Button20
+
+Button21.Name = "Button21"
+Button21.Parent = ScriptsScrollingFrame
+Button21.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button21.BackgroundTransparency = 0.800
+Button21.Position = UDim2.new(0.0310880542, 0, 0.748400688, 0)
+Button21.Size = UDim2.new(0, 170, 0, 50)
+Button21.Font = Enum.Font.Cartoon
+Button21.Text = "fan's remake"
+Button21.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button21.TextScaled = true
+Button21.TextSize = 14.000
+Button21.TextWrapped = true
+Button21.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/M0ACJV3W", true))()
+end)
+
+
+UIStroke_29.Parent = Button21
+UIStroke_29.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_29.Thickness = 1.100
+UIStroke_29.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_28.Parent = Button21
+
+Button22.Name = "Button22"
+Button22.Parent = ScriptsScrollingFrame
+Button22.BackgroundColor3 = Color3.fromRGB(139, 77, 66)
+Button22.BackgroundTransparency = 0.800
+Button22.Position = UDim2.new(0.484456003, 0, 0.748400688, 0)
+Button22.Size = UDim2.new(0, 170, 0, 50)
+Button22.Font = Enum.Font.Cartoon
+Button22.Text = "hub v2"
+Button22.TextColor3 = Color3.fromRGB(255, 222, 189)
+Button22.TextScaled = true
+Button22.TextSize = 14.000
+Button22.TextWrapped = true
+Button22.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/vgSyRgq4'))()
+end)
+
+--Do not tinker below here!
+
+UIStroke_30.Parent = Button22
+UIStroke_30.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_30.Thickness = 1.100
+UIStroke_30.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_29.Parent = Button22
+
+ExitButton.Name = "ExitButton"
+ExitButton.Parent = MainFrame
+ExitButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExitButton.Position = UDim2.new(0.0286023319, 0, 0.0157773793, 0)
+ExitButton.Size = UDim2.new(0, 50, 0, 50)
+ExitButton.Image = "http://www.roblox.com/asset/?id=10711287694"
+ExitButton.MouseButton1Down:Connect(function()
+	MainFrame.Visible = false
+	ButtonOpen.Visible = true
+end)
+
+UIStroke_31.Parent = ExitButton
+UIStroke_31.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_31.Thickness = 2.000
+UIStroke_31.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UICorner_30.Parent = ExitButton
+
+UIAspectRatioConstraint_3.Parent = MainFrame
+UIAspectRatioConstraint_3.AspectRatio = 1.493
+
+OpenUIFrame.Name = "OpenUIFrame"
+OpenUIFrame.Parent = ScreenGui
+OpenUIFrame.BackgroundColor3 = Color3.fromRGB(255, 222, 189)
+OpenUIFrame.BackgroundTransparency = 1.000
+OpenUIFrame.Position = UDim2.new(0.00931391958, 0, 0.0149432868, 0)
+OpenUIFrame.Size = UDim2.new(0, 172, 0, 54)
+
+UICorner_31.Parent = OpenUIFrame
+
+UIStroke_32.Parent = OpenUIFrame
+UIStroke_32.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_32.Thickness = 2.000
+UIStroke_32.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+ButtonOpen.Name = "ButtonOpen"
+ButtonOpen.Parent = OpenUIFrame
+ButtonOpen.BackgroundColor3 = Color3.fromRGB(38, 17, 15)
+ButtonOpen.BackgroundTransparency = 0.250
+ButtonOpen.Position = UDim2.new(-0.00635852385, 0, -0.0416652523, 0)
+ButtonOpen.Size = UDim2.new(0, 172, 0, 54)
+ButtonOpen.Font = Enum.Font.Cartoon
+ButtonOpen.Text = "Open UI"
+ButtonOpen.TextColor3 = Color3.fromRGB(255, 222, 189)
+ButtonOpen.TextScaled = true
+ButtonOpen.TextSize = 14.000
+ButtonOpen.TextWrapped = true
+ButtonOpen.Visible = false
+ButtonOpen.MouseButton1Down:Connect(function()
+	MainFrame.Visible = true
+	ButtonOpen.Visble = false
+end)
+
+UICorner_32.Parent = ButtonOpen
+
+UIStroke_33.Parent = ButtonOpen
+UIStroke_33.Color = Color3.fromRGB(255, 222, 189)
+UIStroke_33.Thickness = 2.000
+UIStroke_33.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+UIAspectRatioConstraint_4.Parent = OpenUIFrame
+UIAspectRatioConstraint_4.AspectRatio = 3.185
